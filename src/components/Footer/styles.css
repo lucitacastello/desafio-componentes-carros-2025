@@ -1,0 +1,22 @@
+footer {
+   
+    height: 120px;
+    background-color: var(--ct-color-bg-secondary);
+    color: var(--ct-color-font-tertiary);
+     display: flex;
+    align-items: center;
+}
+.ct-footer-text{
+    padding: 70px 34px ;
+    display: grid;
+    align-items: center;justify-content: center ;
+}
+
+footer p{
+    font-size: 16px;   
+    margin-bottom: 10px; 
+}
+footer address{
+    font-size: 16px;
+
+}

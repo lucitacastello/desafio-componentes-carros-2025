@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
   --ct-color-bg-primary: #fff;
-  --ct-color-bg-secondary: #3C9AF0;
-  --ct-color-bg-tertiary: #C8C8C8;
+  --ct-color-bg-secondary: #3c9af0;
+  --ct-color-bg-tertiary: #c8c8c8;
   /* --ct-color-bg-quartenary: #EDEDED; */
 
-  --ct-color-font-primary: #5E5E5E;
-  --ct-color-font-secondary: #3C9AF0;
+  --ct-color-font-primary: #5e5e5e;
+  --ct-color-font-secondary: #3c9af0;
   --ct-color-font-tertiary: #fff;
   /* --ct-color-font-quarternary: ; */
   /* --ct-color-font-placeholder: #a7a7a7; */
-  
 }
 
 * {
