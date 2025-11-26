@@ -12,11 +12,7 @@
   border-color: #3c9af0;
   border-radius: 10px;
 }
-.ct-card h1 {
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--ct-color-font-primary);
-}
+
 .ct-card-img img {
   justify-content: center;
   width: 260px;
