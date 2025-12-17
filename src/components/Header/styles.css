@@ -5,12 +5,21 @@ header {
     /* width: 320px; */
     display: flex;
     align-items: center;
-   
+    text-align: center;   
 }
 
 header h1{
     font-weight: 700;
     font-size: 20px;
     color: var(--ct-color-bg-primary);
-    text-align: center;
+    /* text-align: center; */
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 0 519px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
 }

@@ -20,3 +20,11 @@ footer address{
     font-size: 16px;
 
 }
+
+@media (min-width: 1200px) {
+  .ct-footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+  }
+}

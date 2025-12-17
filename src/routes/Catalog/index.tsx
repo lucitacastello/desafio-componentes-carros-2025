@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles.css";
 import Card from "../../components/Card";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
@@ -9,29 +9,29 @@ export default function Catalog() {
     <>
       <Header />
 
-      <main>
-        <section>
-          <div>
+      <main className="ct-catalog-main">
+        <section id="ct-catalog-section" className="ct-container">
+          <div className="ct-catalog-cards-container">
             <h1>Venha nos visitar</h1>
-          </div>
-
-          <div>
             <Card />
             <Card />
           </div>
 
-          <div>
+          <div className="ct-comment-cards-container">
             <h2>O que estão dizendo</h2>
             <CardComments />
             <CardComments />
+            <CardComments />
+            <CardComments />
+            <CardComments />
+            <CardComments />
           </div>
-          <Footer />
 
+          <div>
+            <Footer />
+          </div>
         </section>
       </main>
-
-
-
     </>
   );
 }
